@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:  #61bd8c;
+}
+
+h2{
+    background: snow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+h2{
+    color: #61bd8c;
+}
+/*************************************************** IDs ***************************************************/
+
+#navegacao {
+    border-bottom: solid #d8d8d8 1px;
+    background: snow ;
+    height: 45px;
+}
+
+#area {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#area-principal {
+    width: 720px;
+    margin: 10% auto 10px auto;
+}
+
+#conteudo {
+    background: snow;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+#menu {
+    float: right;
+    padding:  10px 0;
+}
+
+#logo {
+    float: left;
+}
+
+#Campo {
+    margin: 5px;
+}
+
+#formulario {
+    border-radius: 5px;
+}
+
+#formulario2 {
+    border-radius: 5px;
+}
+
+#logar {
+   border-radius: 5px;
+    margin-top: -2%;
+    float: right;
+}
+/****************************************/
+
+/*** Classes ***/
+
+.area {
+    color: #61bd8c;
+}
+
+.honra {
+    font-size: 14px;
+    border-bottom: 5px solid #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+/****************************************/
+/************* Formatação dos links *****/
+
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/* Link não visitados */
+a:link {
+    color: #838383;
+}
+/* Link visitados */
+a:visited {
+    color: #838383;
+}
+/* Link hover */
+a:hover {
+    background: #61bd8c;
+    color: snow;
+}
+/* Link ativo*/
+a:active {
+    color: #535353;
+}

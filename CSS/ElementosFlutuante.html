@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Flutuante</title>
+    <style>
+        #resumo{
+            border: 1px black solid;
+            width: 20em;
+            height: 13em;
+            float: left;
+            margin: 10px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        /** Eliminando expreções flutuantes **/
+        .limpar-float{
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="resumo">
+        <h2>Elementos Flutuante 1</h2>
+        <p>
+           <p>A ideia consistem em construir uma
+            lista cujos elementos, chamados nós
+            (ou nodes), são compostos por duas
+            partes.</p>
+
+           <p>A primeira parte contém a informação
+            e a segunda parte é um ponteiro que
+            aponta para o elemento seguinte da
+            lista.</p>
+        </p>
+    </div>
+
+    <div id="resumo">
+        <h2>Elementos Flutuante 2</h2>
+        <p>
+           <p>A ideia consistem em construir uma
+            lista cujos elementos, chamados nós
+            (ou nodes), são compostos por duas
+            partes.</p>
+
+           <p>A primeira parte contém a informação
+            e a segunda parte é um ponteiro que
+            aponta para o elemento seguinte da
+            lista.</p>
+        </p>
+    </div>
+
+    <div class="limpar-float">
+        A ideia consistem em construir uma
+        lista cujos elementos, chamados nós
+        (ou nodes), são compostos por duas
+        partes.
+
+        A primeira parte contém a informação
+        e a segunda parte é um ponteiro que
+        aponta para o elemento seguinte da
+        lista.
+    </div>
+</body>
+</html>

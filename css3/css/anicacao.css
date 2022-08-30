@@ -1,0 +1,72 @@
+/*========================================================================*/
+
+    /** @utor : Frederico Dulio
+    /** d@ta : 16/agosto/2022
+
+/*========================================================================*/
+
+body {
+    background: #050339;
+}
+
+fieldset {
+    border-radius: 10px
+}
+
+footer {
+    color: snow;
+}
+/*========================================================================*/
+
+
+/**** Criar animações css ****/
+@keyframes animacao-box {
+    from {
+        background:  transparent;
+        border-radius: 0px;
+        top: 0;
+        bottom: 0px;
+    }
+
+    to {
+        background: #04022c;
+        border-radius: 90px;
+        top: 200px;
+        bottom: 50px;
+    }
+    
+}
+
+#animacao {
+ padding: 20px;
+ width: 720px;
+ height: 300px;
+ margin: auto;
+ position: relative;
+ color: snow;
+ /*animation-name: animacao-box;
+ animation-duration: 5s;
+ animation-delay: 2s;
+ animation-iteration-count: 2;
+ animation-direction: alternate;
+*/
+ animation: both 2s 2s animacao-box;
+}
+
+/***************************************
+
+/**** Efeito hover com transição ****/
+#box-transicao {
+    margin: auto;
+    width: 760px;
+    height: 500px;
+    background: #19174b;
+    border-radius: 60px;
+}
+
+#box-transicao:hover {
+    width: 800px;
+    background: #04022c;
+    transition: 2s;
+}
+/***************************************/

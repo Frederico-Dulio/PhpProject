@@ -1,0 +1,14 @@
+#sombra {
+    background: #009670;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 8px;
+    box-shadow: 10px 10px 2px 2px black , -20px -10px 2px 2px red;
+}
+
+#sombra h1 {
+    color: snow;
+    font-size: 60px;
+    text-shadow: -8px 4px rgba(0, 0 , 0 , 0.5);
+}

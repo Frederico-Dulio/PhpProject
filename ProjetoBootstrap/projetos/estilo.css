@@ -1,0 +1,29 @@
+.marcador {
+    background: #fe9d9d;
+    border: 1px solid #f94646;
+}
+
+.marcador2 {
+    background: #5bf946;
+    border: 1px solid #f94646;
+    
+}
+
+body {
+    
+    background: #05033b;
+    color: snow;
+}
+
+
+h1 {
+    color: snow;
+}
+
+th {
+    color: snow;
+}
+
+nav {
+    color: black;
+}
